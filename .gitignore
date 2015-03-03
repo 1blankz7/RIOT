@@ -13,3 +13,5 @@ cachegrind.out*
 .settings
 .idea
 /toolchain
+*.sublime-project
+*.sublime-workspace

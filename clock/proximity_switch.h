@@ -1,0 +1,5 @@
+#ifndef PROXIMITY_SWITCH_H
+#define PROXIMITY_SWITCH_H
+
+
+#endif /* PROXIMITY_SWITCH_H */
