@@ -1,20 +1,15 @@
-#define WIDTH 11
-#define HEIGHT 9
-
 #include <stdio.h>
 #include "word_clock.h"
+#include "word_clock_german.h"
 #include <stdlib.h>
 #include <string.h>
 
 
-int ES_IST[] = {0, 1, 3, 4, 5};
-int FUNF[] = {7, 8, 9, 10};
-
 struct clock word_clock_init(void)
 {
     struct clock clock;
-    clock.width = WIDTH;
-    clock.height = HEIGHT;
+    clock.width = WORD_CLOCK_WIDTH;
+    clock.height = WORD_CLOCK_HEIGHT;
     int length = clock.width * clock.height;
 
     clock.matrix = malloc(sizeof(unsigned char) * length);
